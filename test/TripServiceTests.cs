@@ -1,10 +1,10 @@
-using NUnit.Framework;
+using Xunit;
 
 namespace TripService.Test
 {
     public class TripServiceTests
     {
-        [Test]
+        [Fact]
         public void GetTripsByUser_Guest_ThrowsException()
         {
             var Tom = new User();
